@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "puppeteer-core": "^8.0.0",
     "chrome-aws-lambda": "^8.0.2",
     "next": "12.1.6",
     "playwright-core": "^1.22.2",
