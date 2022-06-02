@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import playwright from 'playwright-core';
 import chromium from 'chrome-aws-lambda';
-import { getAbsoluteURL } from '../../utils/utils';
+import { getAbsoluteURL } from '../utils/utils';
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   try {
